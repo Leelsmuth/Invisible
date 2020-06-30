@@ -1,0 +1,23 @@
+{
+  "name": "weather-time",
+  "version": "1.0.0",
+  "description": "weather-time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leelsmuth/weather-time.git"
+  },
+  "author": "Oluwafemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leelsmuth/weather-time/issues"
+  },
+  "homepage": "https://github.com/Leelsmuth/weather-time#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "request": "^2.88.0"
+  }
+}
