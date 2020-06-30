@@ -31,7 +31,10 @@ request(url, (error, response, body) => {
     const temp = data.main.temp;
     console.log(`It's currently ${temp}°C in ${data.name} and the time is ${time}`);
   }
-  catch (error) {
-    console.log(error);
+  catch {
+    const err = JSON.parse(error);
+    if (err == null) {
+      return console.log("Please enter a valid City name");
+    }
   }
 });
